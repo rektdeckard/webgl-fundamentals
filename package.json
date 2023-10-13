@@ -1,0 +1,21 @@
+{
+  "name": "webgl-fundamentals",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.8"
+  },
+  "dependencies": {
+    "highlight.js": "^11.9.0",
+    "kdim": "^0.3.7"
+  }
+}

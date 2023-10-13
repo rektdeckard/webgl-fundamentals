@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebGL Fundamentals</title>
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <div class="panel">
+          <ol id="toc"></ol>
+        </div>
+        <div id="viewer" class="panel">
+          <h2 id="title"></h2>
+          <canvas id="canvas"></canvas>
+          <div id="tweaks"></div>
+        </div>
+      </div>
+      <div class="source">
+        <div class="panel">
+          <h2>Vertex Shader</h2>
+          <pre id="vsource" class="language-glsl"></pre>
+        </div>
+        <div class="panel">
+          <h2>Fragment Shader</h2>
+          <pre id="fsource" class="language-glsl"></pre>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
